@@ -1,0 +1,50 @@
+.calories-calculator-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.calories-calculator-container .calculator {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.calories-calculator-container .input-group {
+    margin-bottom: 20px;
+}
+
+.calories-calculator-container .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.calories-calculator-container .input-group .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.calories-calculator-container .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.calories-calculator-container .btn:hover {
+    background-color: #0056b3;
+}
+
+.calories-calculator-container .result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

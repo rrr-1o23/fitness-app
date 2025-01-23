@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav a.active {
+    color: #3182ce;
+    font-weight: bold;
+}
+
+.bg-primary {
+    background-color: #2980b9;
+}
+
+.text-primary {
+    color: #2980b9;
+}
