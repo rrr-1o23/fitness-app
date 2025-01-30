@@ -7,6 +7,7 @@ export default defineConfig({
             input: [
                 'resources/css/app.css', 
                 'resources/js/app.js',
+                'resources/js/dashboard/foodSearch.ts',
                 'resources/js/calculators/calories.ts',
                 'resources/css/calculators/calories.css',
                 'resources/css/dashboard.css',

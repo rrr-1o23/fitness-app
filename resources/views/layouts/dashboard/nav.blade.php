@@ -3,11 +3,11 @@
         <div class="flex items-center space-x-8">
             <span class="text-xl font-semibold text-primary">Fitness App</span>
             <a href="{{ route('dashboard') }}" class="text-gray-600 hover:text-primary">Home</a>
-            <a href="/" target="_blank" class="text-gray-600 hover:text-primary">Diary</a>
-            <a href="/" target="_blank" class="text-gray-600 hover:text-primary">Stats</a>
-            <a href="/" target="_blank" class="text-gray-600 hover:text-primary">My Food</a>
-            <a href="/" target="_blank" class="text-gray-600 hover:text-primary">Food</a>
-            <a href="/" target="_blank" class="text-gray-600 hover:text-primary">Exercises</a>
+            <a href="{{ route('dashboard') }}" class="text-gray-600 hover:text-primary">Diary</a>
+            <a href="{{ route('dashboard') }}" class="text-gray-600 hover:text-primary">Stats</a>
+            <a href="{{ route('dashboard') }}" class="text-gray-600 hover:text-primary">My Food</a>
+            <a href="{{ route('dashboard.food') }}" class="text-gray-600 hover:text-primary">Food</a>
+            <a href="{{ route('dashboard') }}" class="text-gray-600 hover:text-primary">Exercises</a>
         </div>
         <div class="flex items-center space-x-4">
             <span class="text-gray-600">Hello, {{ Auth::user()->name }}</span>
