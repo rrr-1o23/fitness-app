@@ -5,7 +5,7 @@
             <a href="{{ route('dashboard') }}" class="text-gray-600 hover:text-primary">Home</a>
             <a href="{{ route('dashboard') }}" class="text-gray-600 hover:text-primary">Diary</a>
             <a href="{{ route('dashboard') }}" class="text-gray-600 hover:text-primary">Stats</a>
-            <a href="{{ route('dashboard') }}" class="text-gray-600 hover:text-primary">My Food</a>
+            <a href="{{ route('food.index') }}" class="text-gray-600 hover:text-primary">My Food</a>
             <a href="{{ route('dashboard.food') }}" class="text-gray-600 hover:text-primary">Food</a>
             <a href="{{ route('dashboard') }}" class="text-gray-600 hover:text-primary">Exercises</a>
         </div>

@@ -10,6 +10,7 @@
             {!! $earlyAssetLoad !!}
         @endisset
     </head>
+    
     <body class="bg-gray-50 text-gray-800 h-screen flex flex-col">
 
     @include('layouts.front.nav')
